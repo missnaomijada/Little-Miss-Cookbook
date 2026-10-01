@@ -62,9 +62,41 @@ nav button.active{background:#eeb4c4;color:#3d2d2a}
 .ingredientGuide .guideStep{background:#fff7ea}
 .footer{font-family:"Bradley Hand","Segoe Print",cursive;font-size:16px}
 @media(max-width:720px){.hero{min-height:330px;padding:38px 22px;background:linear-gradient(155deg,#fff9ef 0 68%,#edc7c4 68% 100%)}.hero:before{width:190px;height:190px;right:-70px;top:-60px}.hero h1{font-size:52px}.hero p{font-size:19px;max-width:92%}nav{border-radius:18px;top:72px}.card:nth-child(n){transform:none}}
+
+/* MASTER REFERENCE PASS: dense painted sketchbook */
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:
+linear-gradient(12deg,transparent 0 7%,#d88c7050 7% 9%,transparent 9% 22%,#d7ad4e45 22% 25%,transparent 25% 72%,#c13d7650 72% 75%,transparent 75%),
+linear-gradient(-9deg,transparent 0 82%,#506d8650 82% 85%,transparent 85%);opacity:.7}
+.wrap:before{content:"";position:fixed;left:0;top:0;bottom:0;width:28px;background:repeating-linear-gradient(to bottom,transparent 0 18px,#28201d 18px 22px,transparent 22px 39px);opacity:.72;z-index:20;pointer-events:none}
+.hero{min-height:500px;background:
+linear-gradient(90deg,#fff7e9e8 0 38%,transparent 38%),
+radial-gradient(circle at 72% 45%,#8b4f4235 0 18%,transparent 19%),
+linear-gradient(120deg,#e7b1b7 0 18%,#d6b36c 18% 26%,#768b7745 26% 37%,#efe0c7 37% 100%);border:0;box-shadow:none;outline:12px solid #f2e5d5;outline-offset:-12px}
+.hero:before{width:46%;height:88%;right:8%;top:7%;border-radius:3px;background:
+radial-gradient(ellipse at 50% 20%,#2d1b1c 0 14%,transparent 15%),
+radial-gradient(ellipse at 50% 45%,#6b3b31 0 22%,transparent 23%),
+linear-gradient(135deg,#c48d83,#6d463d 46%,#b5687f 47% 62%,#e7c7aa 63%);opacity:.88;filter:none;transform:rotate(.7deg);box-shadow:8px 10px 0 #33231d22}
+.hero:after{width:180px;height:250px;right:1%;bottom:20px;border-radius:2px;background:repeating-linear-gradient(#fff9ee 0 28px,#b7a08a55 29px 30px);opacity:.9;transform:rotate(3deg);box-shadow:3px 5px 0 #3c2d2820}
+.hero h1{font-size:clamp(64px,9vw,112px);line-height:.78;letter-spacing:-.055em;max-width:500px;background:#e98aac80;padding:12px 18px 18px;transform:rotate(-1.2deg);display:inline-block;margin-left:-10px}
+.hero .eyebrow{display:none}
+.hero p{max-width:390px;font-size:22px;line-height:1.22;margin-top:24px;background:#fff8ebc7;padding:14px;transform:rotate(.4deg)}
+.search{position:relative;top:auto;margin-top:-92px;width:min(520px,46%);margin-left:28px;z-index:8}
+.search input{background:#fff9ef;border:1px solid #a88b78;padding:17px 52px 17px 22px}
+nav{position:absolute;top:28px;left:30%;right:8%;margin:0;border-radius:2px;padding:7px 10px;background:#fff9eef2;box-shadow:3px 5px 0 #3b2c231c}
+.categoryRibbon{margin-top:70px!important;background:#f5eadc;padding:12px 8px;border-top:8px solid #d47a9650;border-bottom:8px solid #55758935}
+.categoryRibbon button{min-height:120px!important;background:linear-gradient(155deg,#8f4e56 0 44%,#e7cbb0 45% 100%)!important;border:8px solid #f9f0e5!important;box-shadow:3px 5px 0 #5c413429!important;font-family:"Bradley Hand","Segoe Print",cursive!important;font-size:15px;transform:rotate(-.6deg)}
+.categoryRibbon button:nth-child(even){background:linear-gradient(155deg,#6f7f65 0 44%,#e6b9bd 45% 100%)!important;transform:rotate(.7deg)}
+#home>.grid[style]{grid-template-columns:repeat(4,1fr)!important;gap:7px!important;background:linear-gradient(90deg,#efc0cb55,#e7d6a855,#7290a83c);padding:12px}
+#home>.grid[style] .card{min-height:235px;padding-top:125px;background:linear-gradient(160deg,#d18b9d 0 46%,#fff7e9 47%);box-shadow:none;border:6px solid #f4e6d5;transform:rotate(-.6deg);position:relative}
+#home>.grid[style] .card:nth-child(even){background:linear-gradient(160deg,#778a73 0 46%,#fff7e9 47%);transform:rotate(.7deg)}
+#home>.grid[style] .card h3{font-family:"Bradley Hand","Segoe Print",cursive;font-size:25px;margin:0 0 6px}
+#home>.grid[style] .card p{font-family:"Bradley Hand","Segoe Print",cursive;font-size:14px;line-height:1.25}
+.page:not(#home){background:#fff8ebcc;padding:26px;margin-top:24px;border:1px solid #d5c2b2;box-shadow:7px 9px 0 #a86c6520}
+.page:not(#home):before{content:"";display:block;height:14px;margin:-35px -12px 22px;background:linear-gradient(90deg,#df7b9d 0 18%,#617f9b 18% 32%,#d8a74f 32% 47%,#708569 47% 62%,#c76580 62% 78%,#d99a70 78%)}
+@media(max-width:850px){nav{position:sticky;top:8px;left:auto;right:auto}.search{margin:12px 0;width:100%}.hero{min-height:560px;padding:34px 20px}.hero:before{width:62%;height:48%;right:5%;top:auto;bottom:26px}.hero:after{display:none}.hero h1{font-size:64px;max-width:95%}.hero p{font-size:18px;max-width:85%}.categoryRibbon{margin-top:20px!important;grid-template-columns:repeat(2,1fr)!important}#home>.grid[style]{grid-template-columns:repeat(2,1fr)!important}}
 </style>
 </head><body><main class="wrap">
-<header class="hero"><div class="eyebrow">Naomi's living kitchen book</div><h1>Little Miss<br>Cookbook 🍳</h1><p>Recipes, baking experiments, food science, flavour pairings and emergency kitchen rescues. Nut-free by design, built to remember the tiny details that make a dish yours.</p></header>
+<header class="hero"><div class="eyebrow">Naomi's living kitchen book</div><h1>Little Miss<br>Cookbook ♡</h1><p>Real recipes, big flavour, clever techniques and a whole lot of curiosity.</p></header>
 <div class="search"><input id="search" placeholder="Search recipes, ingredients, problems…" aria-label="Search cookbook"></div>
 <nav id="nav"><button class="active" data-page="home">Home</button><button data-page="recipes">Recipes</button><button data-page="ingredients">Ingredient Lab</button><button data-page="science">Food Science</button><button data-page="sauces">Sauce School</button><button data-page="pairings">Global Kitchen</button><button data-page="rescue">Save My Food</button><button data-page="experiments">Notes & Favourites</button><button data-page="help">Little Miss AI</button></nav>
 <section id="home" class="page active searchable">
