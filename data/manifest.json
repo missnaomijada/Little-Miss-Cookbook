@@ -1,7 +1,7 @@
 {
   "archiveRecords": 54843,
   "foodRecords": 7793,
-  "modernRecipes": 28,
+  "modernRecipes": 52,
   "techniqueLessons": 14,
   "collections": {
     "australian-table": 1010,
@@ -69,5 +69,7 @@
   "foodRelease": "SR Legacy April 2018",
   "importDate": "2026-10-01",
   "omittedArchiveRecords": 0,
-  "countsNote": "Source records, including historical variants and separate raw/cooked food forms. Not counts of distinct ingredients, tested recipes or modern lessons."
+  "countsNote": "Source records, including historical variants and separate raw/cooked food forms. Not counts of distinct ingredients, tested recipes or modern lessons.",
+  "modernDrinks": 14,
+  "modernUpdated": "2026-10-02"
 }
