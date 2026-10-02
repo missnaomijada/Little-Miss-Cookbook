@@ -228,4 +228,4 @@ document.getElementById('surprise')?.addEventListener('click',()=>{const cards=[
 document.querySelectorAll('.aiBtn').forEach(b=>b.addEventListener('click',()=>{const recipe=b.closest('.recipe')?.querySelector('h3')?.textContent||'this recipe';buttons.find(x=>x.dataset.page==='help')?.click();addBubble('Help me with '+recipe,'user');addBubble('I know which recipe you came from. This public prototype has contextual built-in help; the full generative recipe-aware AI will use a secure backend rather than exposing a key in GitHub Pages. 🌺','bot')}));
 updateCount();
 document.querySelectorAll('[data-kitchen-page]').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();buttons.find(b=>b.dataset.page===link.dataset.kitchenPage)?.click()}));
-</script><script src="./recipes-data.js?v=2"></script><script src="./lessons-data.js?v=2"></script><script src="./kitchen.js?v=3"></script><script src="./library.js?v=1"></script></body></html>
+</script><script src="./recipes-data.js?v=2"></script><script src="./lessons-data.js?v=2"></script><script src="./kitchen.js?v=3"></script><script src="./library.js?v=2"></script></body></html>
